@@ -3,17 +3,101 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="apple-touch-icon" sizes="57x57" href="assets/icons/" />
+    <link
+      rel="apple-touch-icon"
+      sizes="60x60"
+      href="assets/icons/apple-icon-60x60.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="72x72"
+      href="assets/icons/apple-icon-72x72.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="76x76"
+      href="assets/icons/apple-icon-76x76.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="114x114"
+      href="assets/icons/apple-icon-114x114.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="120x120"
+      href="assets/icons/apple-icon-120x120.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="144x144"
+      href="assets/icons/apple-icon-144x144.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="152x152"
+      href="assets/icons/apple-icon-152x152.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="assets/icons/apple-icon-180x180.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="192x192"
+      href="assets/icons/android-icon-192x192.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/icons/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="96x96"
+      href="assets/icons/favicon-96x96.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="assets/icons/favicon-16x16.png"
+    />
+    <link rel="manifest" href="assets/icons/manifest.json" />
+    <meta name="msapplication-TileColor" content="#232323" />
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png" />
+    <meta name="theme-color" content="#232323" />
+
     <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              dark: "#232323",
+              principal: "#3ec927",
+            },
+          },
+        },
+      };
+    </script>
+
+    <link rel="stylesheet" href="./index.css" />
     <title>Digital Boost</title>
   </head>
   <body>
     <header
-      class="w-full h-[100px] flex justify-between px-[18px] py-[45px] bg-[#111310] text-[#ffff] items-center"
+      class="w-full h-[100px] flex justify-between px-[18px] py-[45px] bg-[#111310] text-[#ffffff] items-center"
     >
       <img src="" alt="Logotipo da Digital Boost" />
 
       <nav
-        class="flex p-2.5 gap-[50px] items-center text-[15px] justify-between h-[40px]"
+        class="flex p-2.5 gap-[50px] items-center text-base justify-between h-[40px]"
       >
         <a href="">Início</a>
         <a href="">Sobre nós</a>
@@ -21,16 +105,127 @@
         <a href="">Contactos</a>
       </nav>
 
-      <button class="py-[10px] px-[20px] text-[13px] text-[#ffff] bg-[#27701B]">
+      <button class="py-[10px] px-[20px] text-white bg-[#27701B]">
         ENTRE EM CONTACTO
       </button>
     </header>
+    <main class="m-auto">
+      <section>Banner</section>
+      <section>Sobre nós</section>
 
-    <section>Banner</section>
-    <section>Sobre nós</section>
-    <section>Nossos serviços</section>
-    <section>Parceiros</section>
+      <section
+        class="w-full mx-auto my-[80px] p-8 flex flex-col items-center justify-center"
+      >
+        <h1 class="text-5xl font-bold">Nossos Serviços</h1>
 
-    <footer>Footer</footer>
+        <p class="text-2xl text-center m-4 max-w-2xl">
+          Seja qual for o seu objetivo, temos a solução sob medida para
+          impulsionar sua marca e alcançar seus resultados.
+        </p>
+
+        <ul
+          class="w-full flex flex-row items-center justify-center flex-wrap gap-4 m-8"
+        >
+          <li
+            class="flex flex-col justify-start items-start bg-dark w-1/3 max-w-md h-48 p-4 gap-y-3.5"
+          >
+            <img src="./assets/images/trafego-pago.svg" alt="" class="w-10" />
+
+            <h2 class="text-principal font-bold text-lg">Tráfego Pago</h2>
+            <p class="text-white">
+              Alcance mais clientes com anúncios direcionados e gere resultados
+              rápidos para o seu negócio!
+            </p>
+          </li>
+
+          <li
+            class="flex flex-col justify-start items-start bg-dark w-1/3 max-w-md h-48 p-4 gap-y-3.5"
+          >
+            <img
+              src="./assets/images/criacao-de-websites.svg"
+              alt=""
+              class="w-10"
+            />
+
+            <h2 class="text-principal font-bold text-lg">
+              Criação de Websites
+            </h2>
+            <p class="text-white">
+              Dê vida à sua presença online com um website sob medida, feito por
+              especialistas em mercado digital.
+            </p>
+          </li>
+
+          <li
+            class="flex flex-col justify-start items-start bg-dark w-1/3 max-w-md h-48 p-4 gap-y-3.5"
+          >
+            <img
+              src="./assets/images/marketing-digital.svg"
+              alt=""
+              class="w-10"
+            />
+
+            <h2 class="text-principal font-bold text-lg">
+              Consultoria de Marketing Digital
+            </h2>
+            <p class="text-white">
+              Aumente seu tráfego, leads e vendas com estratégias personalizadas
+              e resultados comprovados.
+            </p>
+          </li>
+
+          <li
+            class="flex flex-col justify-start items-start bg-dark w-1/3 max-w-md h-48 p-4 gap-y-3.5"
+          >
+            <img
+              src="./assets/images/gestao-de-redes-sociais.svg"
+              alt=""
+              class="w-10"
+            />
+
+            <h2 class="text-principal font-bold text-lg">
+              Gestão de Redes Sociais
+            </h2>
+            <p class="text-white">
+              Cultive relacionamentos duradouros e amplie seu alcance com
+              estratégias sob medida.
+            </p>
+          </li>
+
+          <li
+            class="flex flex-col justify-start items-start bg-dark w-1/3 max-w-md h-48 p-4 gap-y-3.5"
+          >
+            <img
+              src="./assets/images/patrocinio-de-paginas.svg"
+              alt=""
+              class="w-10"
+            />
+            <h2 class="text-principal font-bold text-lg">
+              Patrocinios de Páginas
+            </h2>
+            <p class="text-white">
+              Impulsione sua marca para o topo com anúncios estratégicos e
+              direcionados.
+            </p>
+          </li>
+
+          <li
+            class="flex flex-col justify-start items-start bg-dark w-1/3 max-w-md h-48 p-4 gap-y-3.5"
+          >
+            <img src="./assets/images/design-grafico.svg" alt="" class="w-10" />
+
+            <h2 class="text-principal font-bold text-lg">Design Gráfico</h2>
+            <p class="text-white">
+              Comunicação visual estratégica que conecta sua marca com o público
+              certo.
+            </p>
+          </li>
+        </ul>
+      </section>
+
+      <section>Parceiros</section>
+
+      <footer>Footer</footer>
+    </main>
   </body>
 </html>

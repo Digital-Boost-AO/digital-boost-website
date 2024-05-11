@@ -1,0 +1,9 @@
+<svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<rect width="25" height="25" fill="url(#pattern0_158_178)"/>
+<defs>
+<pattern id="pattern0_158_178" patternContentUnits="objectBoundingBox" width="1" height="1">
+<use xlink:href="#image0_158_178" transform="scale(0.02)"/>
+</pattern>
+<image id="image0_158_178" width="50" height="50" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAACoUlEQVR4nO2ZPWsUQQCGJyR+RsVgoZ029qKNEa1ELLTT2AhKmhgs1EashBBRDCJILNL4F8R0phOihahEI6KiCH4gKiJaxCh+PTLx9TJ3s7O53O1u5mAfWDhm3ntm53ZmdnbPmJKSuAA6gNPAK5rnLXABWLoQHbGdyJrLC9GRl2p8VwauLcAvYApoz+YM6298hgx976Rcl5Wz3obLjiRRXpFmKYdWgHJoNUs5tAKUQ6tZtNGzbMrAtQH4DnwDFjV9cvNs/Fwdm8Cb2iV36PNcXCm0E+rIYnXm/5UJcUhHGh+AYWC5iQ3n5J/pmOmUaTWAduCp86s/t0PMtCLAYXeImVaF2Uk+HsXV4N/EPgiMAm+AaeBOFs/YebqrADYCk4HVZgI4Caw0kbmrAFY7b0nsynMC2AHsBr44jT4CVplI3B7AWclu1a7xGv+bgcfKnDGRuD2AJxJtTcnsVOZhKFO020N7H9ImHrBCmalQpmi3h1YRy/o5NnyW16FM0W4PYEyinpRMjzJjoUzRbg/gnkS9KZleZe6GMkW7PXRzsnSmZDqVmQ5linZ7APclmkyalMASu6IoM2EicXsA24AXku1PqN+nOpvpNpG4EwH6JbwBtDnlbSqz9JvI3B5Al57gLH1OeZ/KbF2Xadz9Pg93InaLIPGAUzaQxfYhT7cHcD6lsSETqbsCsAw4DnytvXnZCaoy+xpncL5/0Mh9LA93BWCNLvlHZhlJmJCXgD+q/wlc0za8kgu4B/NwVwEcqXkeuA3sScl3A1eBH853HiQtmXm6qwAuOl+4Dmw3dQKsBU4577nsr3i0CHcVwF6F7Pb6gGkQ3ZHti7vfOrrzdJuU3ehIow3V+IbkG83TbRIqP5MPn/J0m4SO1POSOTbGs7jCJSUmzF+KvCDCLsJeJAAAAABJRU5ErkJggg=="/>
+</defs>
+</svg>
