@@ -17,7 +17,11 @@
       property="og:image"
       content="https://raw.githubusercontent.com/Digital-Boost-AO/digital-boost-website/main/assets/images/digital-boost-og-image.png"
     />
-    <link rel="apple-touch-icon" sizes="57x57" href="assets/icons/" />
+    <link
+      rel="apple-touch-icon"
+      sizes="57x57"
+      href="assets/icons/apple-icon-57x57.png"
+    />
     <link
       rel="apple-touch-icon"
       sizes="60x60"
@@ -105,7 +109,7 @@
     <title>Digital Boost</title>
   </head>
   <body>
-    <main class="max-w-[1440px]">
+    <main class="max-w-[1440px] mx-auto">
       <header
         class="w-full h-[100px] flex justify-between px-[35px] py-[45px] bg-[#111310] text-white items-center"
       >
@@ -148,11 +152,11 @@
         <img
           src="./assets/icons/ms-icon-310x310.png"
           alt="Logotipo da Nave da Digital Boost"
-          class="absolute right-32 hover:-translate-y-[600px] hover:translate-x-[600px] ease-linear duration-300"
+          class="absolute right-32 hover:-translate-y-[600px] hover:translate-x-[600px] ease-out duration-300"
         />
         <div class="w-1/2 flex flex-col gap-7">
           <div class="flex flex-col w-full h-[292px]">
-            <h1 class="text-6xl max-[1280px]:text-5xl font-bold">
+            <h1 class="text-5xl max-[1280px]:text-5xl font-bold">
               Junte-se a nós na jornada digital rumo ao sucesso e
               reconhecimento.
             </h1>
@@ -316,21 +320,32 @@
 
       <section
         id="servicos"
-        class="w-full mx-auto mb-1 p-8 flex flex-col items-center justify-center bg-dark text-white"
+        class="w-full mx-auto mb-1 py-32 flex flex-col items-center justify-center bg-dark text-white"
       >
-        <h2 class="text-5xl max-[1280px]:text-4xl font-bold">
-          Nossos Parceiros
-        </h2>
+        <h2 class="text-5xl max-[1280px]:text-4xl font-bold">Parceiros</h2>
 
         <ul
-          class="w-full flex flex-row items-center justify-center flex-wrap gap-4 m-8"
+          class="w-full flex flex-row items-center justify-center flex-wrap gap-36 m-8"
         >
-          <img src="" alt="Parceiro 1" />
-          <img src="" alt="Parceiro 2" />
-          <img src="" alt="Parceiro 3" />
-          <img src="" alt="Parceiro 4" />
-          <img src="" alt="Parceiro 5" />
-          <img src="" alt="Parceiro 6" />
+          <img
+            src="./assets/images/parceiros/txully-logo.png"
+            alt="Parceiro 1"
+            class="w-64"
+          />
+          <img
+            src="./assets/images/parceiros/vareju-logo.png"
+            alt="Parceiro 2"
+            class="w-64"
+          />
+          <img
+            src="./assets/images/parceiros/DIZCART.png"
+            alt="Parceiro 3"
+            class="w-64"
+          />
+
+          <img src="" alt="Parceiro 4" class="w-64" />
+          <img src="" alt="Parceiro 5" class="w-64" />
+          <img src="" alt="Parceiro 6" class="w-64" />
         </ul>
       </section>
 
