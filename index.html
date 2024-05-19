@@ -126,7 +126,7 @@
           <img
             src="./assets/images/digital-boost-logo-slim.png"
             alt="Logotipo da Digital Boost"
-            class="w-full"
+            class="w-full max-lg:w-56"
           />
         </a>
 
@@ -181,16 +181,18 @@
 
       <section
         id="banner"
-        class="h-[496px] bg-gradient-to-b from-[#107100] to-dark py-[75px] px-[100px] box-border text-white flex flex-col relative"
+        class="h-[496px] bg-gradient-to-b from-[#107100] to-dark py-[75px] max-lg:py-12 max-lg:px-7 px-[100px] box-border text-white flex flex-col relative max-lg:min-h-10 max-lg:justify-center"
       >
-        <div class="w-1/2 flex flex-col gap-7">
-          <div class="flex flex-col w-full h-[292px]">
-            <h1 class="text-5xl lg:text-5xl font-bold">
+        <div
+          class="w-1/2 max-lg:w-full flex flex-col max-lg:text-center max-lg:items-center gap-7"
+        >
+          <div class="flex flex-col w-full h-[292px] max-lg:h-auto">
+            <h1 class="text-5xl max-lg:text-3xl font-bold">
               Junte-se a nós na jornada digital rumo ao sucesso e
               reconhecimento.
             </h1>
 
-            <p class="text-2xl lg:text-xl mt-4">
+            <p class="text-2xl max-lg:text-xl mt-4">
               Descubra o poder da estratégia digital personalizada e alcance
               novos patamares de crescimento!
             </p>
@@ -209,17 +211,27 @@
         id="sobre"
         class="flex flex-col justify-around items-center bg-dark text-white p-8 gap-8 box-border lg:flex-row"
       >
-        <div class="w-4/5 lg:w-2/5">
+        <div class="w-4/5 max-lg:w-2/5">
           <img src="./assets/images/boy-managing-phone.png" class="w-full" />
         </div>
         <div class="w-4/5 lg:w-2/5">
           <div>
-            <h2 class="text-5xl font-bold lg:text-4xl">Quem somos nós?</h2>
+            <h2
+              class="text-5xl font-bold lg:text-4xl max-lg:text-3xl max-lg:text-center"
+            >
+              Quem somos nós?
+            </h2>
             <br />
-            <p class="text-2xl lg:text-xl font-light">
+            <p
+              class="text-2xl lg:text-xl max-lg:text-xl max-lg:text-center font-light"
+            >
               Somos uma nave de serviços que te elevam a conhecer novas
               galáxias.
-              <br /><br />
+            </p>
+
+            <p
+              class="text-2xl lg:text-xl max-lg:text-xl max-lg:text-center font-light"
+            >
               Que o ajudará a alcançar mais clientes, impulsionar o seu negócio,
               dando novas metas, mais visibilidade e ganhar mais espaço no
               mercado digital.
@@ -230,11 +242,11 @@
 
       <section
         id="servicos"
-        class="w-full mx-auto my-[80px] p-8 flex flex-col items-center justify-center"
+        class="w-full mx-auto my-[80px] max-lg:m-0 p-8 flex flex-col items-center justify-center"
       >
-        <h2 class="text-5xl lg:text-4xl font-bold">Nossos Serviços</h2>
+        <h2 class="text-5xl max-lg:text-3xl font-bold">Nossos Serviços</h2>
 
-        <p class="text-2xl lg:text-xl text-center m-4 max-w-2xl">
+        <p class="text-2xl max-lg:text-xl text-center m-4 max-w-2xl">
           Seja qual for o seu objetivo, temos a solução sob medida para
           impulsionar sua marca e alcançar seus resultados.
         </p>
@@ -348,38 +360,40 @@
 
       <section
         id="servicos"
-        class="w-full mx-auto mb-1 py-32 flex flex-col items-center justify-center bg-dark text-white"
+        class="w-full mx-auto mb-1 py-32 max-lg:py-10 flex flex-col items-center justify-center bg-dark text-white max-lg:px-8"
       >
-        <h2 class="text-5xl lg:text-4xl font-bold">
+        <h2 class="text-5xl max-lg:text-3xl font-bold text-center">
           Marcas que confiam em nós
         </h2>
 
         <ul
-          class="w-full flex flex-row items-center justify-center flex-wrap gap-36 m-8"
+          class="w-full flex flex-row items-center justify-center flex-wrap gap-36 py-8"
         >
           <img
             src="./assets/images/parceiros/txully-logo.png"
             alt="Parceiro 1"
-            class="w-64"
+            class="w-64 max-lg:w-52"
           />
           <img
             src="./assets/images/parceiros/vareju-logo.png"
             alt="Parceiro 2"
-            class="w-64"
+            class="w-64 max-lg:w-52"
           />
           <img
             src="./assets/images/parceiros/dizcart.png"
             alt="Parceiro 3"
-            class="w-64"
+            class="w-64 max-lg:w-52"
           />
         </ul>
       </section>
 
       <footer class="bg-dark text-white">
-        <div class="flex justify-between py-[52px] px-[57px]">
+        <div
+          class="flex justify-between py-[52px] px-[57px] max-lg:flex-col max-lg:gap-12 max-lg:text-center"
+        >
           <p>@ Digital Boost</p>
-          <div class="flex justify-around gap-[100px]">
-            <ul class="flex flex-col gap-[18px] mt-[50px]">
+          <div class="flex justify-around gap-[100px] max-lg:gap-16 max-lg:flex-col">
+            <ul class="flex flex-col gap-[18px] mt-[50px] max-lg:mt-0">
               <li><a href="">Home</a></li>
               <li><a href="">Sobre</a></li>
               <li><a href="">Serviços</a></li>
@@ -403,13 +417,14 @@
         </div>
 
         <div
-          class="flex justify-between border-t-2 border-[#61E656] py-[53px] pl-[346px] pr-[30.66px]"
+          class="flex justify-between border-t-2 border-[#61E656] py-[53px] pl-[346px] pr-[30.66px] max-lg:flex-col max-lg:px-4 max-lg:justify-center max-lg:gap-6"
         >
-          <p>
+          <p class="text-center">
             2024 Todos Direitos Reservados. Digital Boost - Prestação de
             Serviços, Lda. NIF
           </p>
-          <div class="flex justify-around gap-[9px]">
+
+          <div class="flex justify-around gap-[9px] max-lg:justify-center">
             <a href=""><img src="./assets/images/facebook.svg" alt="" /></a>
             <a href=""><img src="./assets/images/instagram.svg" alt="" /></a>
             <a href=""><img src="./assets/images/linkedin.svg" alt="" /></a>
