@@ -93,11 +93,14 @@
       sizes="16x16"
       href="assets/icons/favicon-16x16.png"
     />
+    <script
+      src="https://kit.fontawesome.com/42b9d33ee3.js"
+      crossorigin="anonymous"
+    ></script>
     <link rel="manifest" href="./manifest.json" />
     <meta name="msapplication-TileColor" content="#232323" />
     <meta name="msapplication-TileImage" content="/ms-icon-144x144.png" />
     <meta name="theme-color" content="#232323" />
-
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
       tailwind.config = {
@@ -119,8 +122,8 @@
     <main class="max-w-[1440px] mx-auto">
       <header
         id="main-header"
-        class="w-full flex px-8 py-10 bg-[#111310] text-white lg:items-center flex-col lg:justify-between lg:flex-row lg:h-[120px]"
-        style="transition: all 0.4s; height: 120px"
+        class="w-full flex px-8 py-10 bg-[#111310] text-white lg:items-center flex-col lg:justify-between lg:flex-row lg:h-[100px]"
+        style="transition: all 0.4s; height: 100px"
       >
         <a href="./index.html" class="w-64 md:w-30">
           <img
@@ -172,10 +175,16 @@
 
         <button
           type="button"
+          title="Bars Menu and Times"
           class="absolute top-12 right-11 text-lg flex items-center justify-center lg:hidden"
           id="menu-opener"
         >
-          X
+          <i class="fa fa-lg fa-bars" id="button-icon" aria-hidden="true"></i>
+          <i
+            class="fa fa-lg fa-times hidden"
+            id="button-icon"
+            aria-hidden="true"
+          ></i>
         </button>
       </header>
 
@@ -215,28 +224,25 @@
           <img src="./assets/images/boy-managing-phone.png" class="w-full" />
         </div>
         <div class="w-4/5 lg:w-2/5">
-          <div>
-            <h2
-              class="text-5xl font-bold lg:text-4xl max-lg:text-3xl max-lg:text-center"
-            >
-              Quem somos nós?
-            </h2>
-            <br />
-            <p
-              class="text-2xl lg:text-xl max-lg:text-xl max-lg:text-center font-light"
-            >
-              Somos uma nave de serviços que te elevam a conhecer novas
-              galáxias.
-            </p>
+          <h2
+            class="text-5xl font-bold lg:text-4xl max-lg:text-3xl max-lg:text-center"
+          >
+            Quem somos nós?
+          </h2>
+          <br />
+          <p
+            class="text-2xl lg:text-xl max-lg:text-xl max-lg:text-center font-light"
+          >
+            Somos uma nave de serviços que te elevam a conhecer novas galáxias.
+          </p>
 
-            <p
-              class="text-2xl lg:text-xl max-lg:text-xl max-lg:text-center font-light"
-            >
-              Que o ajudará a alcançar mais clientes, impulsionar o seu negócio,
-              dando novas metas, mais visibilidade e ganhar mais espaço no
-              mercado digital.
-            </p>
-          </div>
+          <p
+            class="text-2xl lg:text-xl max-lg:text-xl max-lg:text-center font-light"
+          >
+            Que o ajudará a alcançar mais clientes, impulsionar o seu negócio,
+            dando novas metas, mais visibilidade e ganhar mais espaço no mercado
+            digital.
+          </p>
         </div>
       </section>
 
@@ -392,7 +398,9 @@
           class="flex justify-between py-[52px] px-[57px] max-lg:flex-col max-lg:gap-12 max-lg:text-center"
         >
           <p>@ Digital Boost</p>
-          <div class="flex justify-around gap-[100px] max-lg:gap-16 max-lg:flex-col">
+          <div
+            class="flex justify-around gap-[100px] max-lg:gap-16 max-lg:flex-col"
+          >
             <ul class="flex flex-col gap-[18px] mt-[50px] max-lg:mt-0">
               <li><a href="">Home</a></li>
               <li><a href="">Sobre</a></li>
