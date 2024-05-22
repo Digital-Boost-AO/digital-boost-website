@@ -27,7 +27,7 @@
       name="keywords"
       content="Digital Boost, Digital, marketing digital, marketing digital angola, agência de marketing, agência de marketing digital em angola, tráfego pago, gestão de redes sociais, gestão de mídias sociais, criação de website, email marketing, inbound marketing, SEO, Instagram Ads, facebook Ads, Google Ads, sms marketing, copyright"
     />
-    <link rel="canincal" href="https://www.digitalboost.ao" />
+    <link rel="canonical" href="https://www.digitalboost.ao" />
     <link
       rel="apple-touch-icon"
       sizes="57x57"
@@ -130,32 +130,133 @@
   </head>
   <body>
     <header
-      class="w-full h-[100px] flex justify-between px-[18px] py-[45px] bg-[#111310] text-[#ffffff] items-center"
+      id="main-header"
+      class="w-full flex px-8 py-10 bg-[#111310] text-white lg:items-center flex-col lg:justify-between lg:flex-row lg:h-[100px]"
+      style="transition: all 0.4s; height: 100px"
     >
-      <img src="" alt="Logotipo da Digital Boost" />
+      <a href="./index.html" class="w-64 md:w-30">
+        <img
+          src="./assets/images/digital-boost-logo-slim.png"
+          alt="Logotipo da Digital Boost"
+          class="w-full max-lg:w-56"
+        />
+      </a>
 
       <nav
-        class="flex p-2.5 gap-[50px] items-center text-base justify-between h-[40px]"
+        class="flex p-2.5 gap-4 items-center text-base justify-between h-10 font-bold flex-col lg:flex-row mt-8 lg:mt-0"
       >
-        <a href="/index.html" class="hover:text-[#3EC927] hover:underline"
-          >Início</a
+        <a
+          href="/index.html"
+          class="hover:text-principal lg:w-36 w-full max-lg:h-16 border-2 border-transparent max-lg:hover:underline hover:border-principal p-4 uppercase text-center"
+          class="nav-link"
         >
-        <a href="#sobre" class="hover:text-[#3EC927] hover:underline"
-          >Sobre nós</a
+          Início
+        </a>
+        <a
+          href="#sobre"
+          class="hover:text-principal lg:w-36 w-full max-lg:h-16 border-2 border-transparent max-lg:hover:underline hover:border-principal p-4 uppercase text-center"
+          class="nav-link"
         >
-        <a href="#servicos" class="hover:text-[#3EC927] hover:underline"
-          >Serviços</a
+          Sobre nós
+        </a>
+        <a
+          href="#servicos"
+          class="hover:text-principal lg:w-36 w-full max-lg:h-16 border-2 border-transparent max-lg:hover:underline hover:border-principal p-4 uppercase text-center"
+          class="nav-link"
         >
-        <a href="/contactos.html" class="hover:text-[#3EC927] hover:underline"
-          >Contactos</a
+          Serviços
+        </a>
+        <a
+          href="/contactos.html"
+          class="hover:text-principal lg:w-36 w-full max-lg:h-16 border-2 border-transparent max-lg:hover:underline hover:border-principal p-4 uppercase text-center"
+          class="nav-link"
         >
+          Contactos
+        </a>
+
+        <button
+          class="py-2.5 px-4 text-sm text-white bg-[#27701B] rounded-lg font-semibold hover:bg-[#47B136] w-full lg:w-44"
+          type="button"
+        >
+          ENTRE EM CONTACTO
+        </button>
       </nav>
 
       <button
-        class="py-[10px] px-[20px] text-[13px] text-[#ffff] bg-[#27701B] rounded-lg font-semibold hover:bg-[#47B136]"
+        type="button"
+        title="Bars Menu and Times"
+        class="absolute top-12 right-11 text-lg flex items-center justify-center lg:hidden"
+        id="menu-opener"
       >
-        ENTRE EM CONTACTO
+        <i class="fa fa-lg fa-bars" id="button-icon" aria-hidden="true"></i>
+        <i
+          class="fa fa-lg fa-times hidden"
+          id="button-icon"
+          aria-hidden="true"
+        ></i>
       </button>
     </header>
+
+    <footer class="bg-dark text-white">
+      <div
+        class="flex justify-between py-[52px] px-[57px] max-lg:flex-col max-lg:gap-12 max-lg:text-center"
+      >
+        <a href="./index.html" class="w-64 md:w-30">
+          <img
+            src="./assets/images/digital-boost-logo-slim.png"
+            alt="Logotipo da Digital Boost"
+            class="w-full max-lg:w-56"
+          />
+        </a>
+        <nav
+          class="flex justify-around gap-[100px] max-lg:gap-16 max-lg:flex-col"
+        >
+          <ul class="flex flex-col gap-[18px] mt-[50px] max-lg:mt-0">
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="#">Sobre</a></li>
+            <li><a href="#">Serviços</a></li>
+            <li><a href="#">Politica e Privacidade</a></li>
+          </ul>
+          <ul class="flex flex-col gap-[18px]">
+            <p class="text-[#5EE54A] font-bold">Serviços</p>
+            <li><a href="#">Trafégo Pago</a></li>
+            <li><a href="#">Criação de Websites</a></li>
+            <li><a href="#">Consultória de Marketing Digital</a></li>
+            <li><a href="#">Gestão de Redes Sociais</a></li>
+            <li><a href="#">Patrocinio de Páginas</a></li>
+            <li><a href="#">Design Gráfico</a></li>
+          </ul>
+          <ul class="flex flex-col gap-[18px]">
+            <li>
+              <p class="text-[#5EE54A] font-bold">Contacto</p>
+            </li>
+            <li><a href="tel:244925078897">(+244) 925 078 897</a></li>
+            <li>
+              <a href="mailto:geral@digitalboost.ao">geral@digitalboost.ao</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+
+      <div
+        class="flex justify-between border-t-2 border-[#61E656] py-[53px] pl-[346px] pr-[30.66px] max-lg:flex-col max-lg:px-4 max-lg:justify-center max-lg:gap-6"
+      >
+        <p class="text-center">
+          2024 Todos Direitos Reservados. Digital Boost - Prestação de Serviços,
+          Lda.
+        </p>
+
+        <nav class="flex justify-around gap-[9px] max-lg:justify-center">
+          <a
+            href="https://web.facebook.com/people/Digital-Boost/61559218387509/"
+          >
+            <img src="./assets/images/facebook.svg" alt="Facebook Icon" />
+          </a>
+          <a href="https://www.instagram.com/digitalboost.ao/">
+            <img src="./assets/images/instagram.svg" alt="Facebook Icon" />
+          </a>
+        </nav>
+      </div>
+    </footer>
   </body>
 </html>
